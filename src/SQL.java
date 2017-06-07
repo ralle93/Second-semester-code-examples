@@ -16,6 +16,6 @@ public class SQL {
     Relationships (1:1, 1:m m:m) 1 til 1, 1 til mange, mange til mange. 1 spa kan have mange reservationer, men hver reservation passer kun til én spa (1 bruger kan bruge mange spa’er, og hver spa kan bruges af mange brugere (på forskellige tidspunkter)
     Query - forespørgsel/SQL-sætning
     Constraints - begrænsninger der gør at ikke alle mulige værdier er gyldige, fx NOTNULL, Unique
-    Referential Integrity - hvis du refererer til et id fra en anden tabel, så skal det id også reelt findes i den an
+    Referential Integrity - hvis du refererer til et id fra en anden tabel, så skal det id også reelt findes i den anden tabel
     */
 }
