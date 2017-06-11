@@ -16,6 +16,19 @@ public class Singleton {
     *    Når man opretter et object af singleton klassen initialiseres objektet hvis den er null
     *    hvis den er sker der ikke noget.
     *
+    *    public class ClassicSingleton {
+            private static ClassicSingleton instance = null;
+            protected ClassicSingleton() {
+            // Exists only to defeat instantiation.
+            }
+            public static ClassicSingleton getInstance() {
+               if(instance == null) {
+                  instance = new ClassicSingleton();
+               }
+            return instance;
+             }
+            }
+    *
     *
     *
     *
