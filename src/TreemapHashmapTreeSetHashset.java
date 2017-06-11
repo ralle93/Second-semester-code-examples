@@ -5,7 +5,7 @@ import java.util.TreeMap;
 
 public class TreemapHashmapTreeSetHashset {
 
-   // TreeMap example
+   // TreeMap example -
    private static void treeMap() {
       // Create a hash map
       TreeMap tm = new TreeMap();
