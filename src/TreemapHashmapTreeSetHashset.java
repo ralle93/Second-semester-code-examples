@@ -39,7 +39,8 @@ public class TreemapHashmapTreeSetHashset {
    /**
     *
     *    TreeMap
-    *
+    *    a treemap is a way to store key/value pairs in a sorted order with fast retriavel.
+    *    You should note that, unlike a hash map, a tree map guarantees that its elements will be sorted in an ascending key order.
     *
     *
     *
